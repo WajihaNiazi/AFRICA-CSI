@@ -1,0 +1,198 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	margin:0;
+	padding:0;
+}
+body p{
+	font-size: 20px;
+}
+.hr{
+	width: 100px;
+	height: 3px;
+	background-image: linear-gradient(to right, green , orange);
+	border-radius: 15%;
+}
+.clr{
+	clear: both;
+}
+ /* the header part  */
+.header{
+	background-color: #262626;
+	padding: 0;
+} 
+.headerslider{
+	height: 700px;
+}
+.logo {
+	width: 300px ;
+}
+.icon li {
+	width: 30px;
+	display: inline-block;
+	text-align: center;
+	height: 30px;
+	color: white;
+}
+ul.icon {
+	list-style: none;
+	margin: 5px;
+	float: right;
+}
+.row1 {
+	color:white;
+}
+.linear-gradient {
+	background: linear-gradient(55deg, #ffbf00 50%, rgb(27, 30, 33) 50%); 
+}
+/*  the frist part is about   */
+#about{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+/* the second part is expertise */
+#expertise{
+	background-color: #f7f0e8;
+	background-image: url("../img/map.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+	background-size: 40em;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+#expertise ul li {
+	font-size: 18px;
+	list-style: none;
+	margin-bottom: 30px;
+	text-indent: 30px;
+	position: relative;
+}
+/* the thired part office */
+#office{
+	background-color: #358e92;
+	color: #fff;
+	padding:150px 20px 50px 20px;
+}
+#office ul li,#office ul li a{
+	list-style: none;
+	color: #fff;
+	display: inline;
+}
+.officephoto{
+	height: 500px;
+}
+.officeheader{
+	float: right;
+	padding-bottom: 50px;
+}
+/* the fourth part projects */
+.projects{
+	background-color: #fff;
+	box-shadow: 2px 2px 5px #000000;
+	padding-bottom: 40px;
+}
+.project{
+	background-color: #f7f0e8;
+	padding-top: 100px;
+}
+#projetheader{
+	padding-bottom: 130px;	
+}
+#projectdetails{
+	background-color: #fff;
+	border-radius: 10px 10px 0 0;
+	padding:30px 40px 30px 40px;
+	width: 85%;
+	margin: auto;
+}
+.projectcontent{
+	box-shadow: 3px 1px 3px 1px #e1e1e1;
+	border-radius: 5px 5px 0 0;
+}
+.projectslider{
+	height: 300px;
+}
+/* the fifth PARTNERS   */
+#partners{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#partnerslogo{
+	padding-bottom:100px ;
+}
+.partnerimage{
+	border: 1px solid rgb(206, 233, 250);
+}
+.partenerphoto{
+	width: 60%;
+	margin: 60px auto;
+}
+.partnerimage img{
+	height: 100px;
+}
+ /* the footer part  */
+footer{
+    background-color: #262626; 
+}
+.footer-logo{
+    width:70%;
+}
+.f-col{
+    padding-top:5%;
+    padding-bottom:2%;
+    box-sizing: border-box;
+    color:gray;
+}
+.f-col h4{ 
+    color:#ffbf00;
+}
+.f-col ul{
+    list-style: none;   
+}
+.f-col ul a{
+    color: gray;  
+}
+.twitter{
+	width:100%;
+	height: 350px;
+}
+.twitter>img{
+	border-radius: 1%;
+}
+@media screen and (max-width: 800px) {
+    #expertise{
+		background-image: none;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	#expertise ul {
+		padding: 0;
+	}
+	.officephoto{
+		height: 300px;
+	}
+	#office{
+		padding:70px 20px 50px 20px;
+	}
+	#projetheader{
+		padding-bottom: 70px;	
+	}
+	#projectdetails{
+		width: 100%;
+	}
+	.f-col ul {
+		padding: 0;
+		margin: 0;
+	}
+	.f-col{
+		padding-bottom:15%;
+	}
+	.hidd{
+		height:200px;
+	}
+	.headerslider{
+		height: 400px;
+	}
+}
