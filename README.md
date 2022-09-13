@@ -1,1 +1,2 @@
 # AFRICA-CSI
+sonar cloud :[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=WajihaNiazi_AFRICA-CSI&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=WajihaNiazi_AFRICA-CSI)
